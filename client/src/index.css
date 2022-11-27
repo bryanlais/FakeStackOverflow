@@ -1,0 +1,292 @@
+/* Add CSS */
+/* Add CSS */
+
+a:hover,
+button:hover {
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  padding: 50px;
+  font-family: 'Ubuntu' !important;
+  background-color: #eff7f6 !important;
+}
+
+.banner {
+  font-family: 'Ubuntu' !important;
+  background-color: #ffffff;
+  width: 100%;
+  font-size: 50px;
+  overflow: hidden;
+  font-family: Arial;
+  border-color: #878787;
+  border-style: solid;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.banner a {
+  float: left;
+  background-color: #cccccc;
+  border: none;
+  background: none;
+  display: block;
+  color: #161616;
+  font-size: 30px;
+  padding: 24px 20px;
+  font-weight: normal;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.banner input {
+  float: right;
+  padding: 6px;
+  border-style: solid;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-right: 20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.myrow {
+  padding-top: 30px;
+  overflow: hidden;
+  font-family: 'Ubuntu', sans-serif;
+  display: block;
+  text-align: center;
+  margin: 0px 5%;
+  font-size: 30px;
+  color: black;
+}
+
+
+table {
+  font-family: 'Ubuntu', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 3px inset;
+  text-align: left;
+  padding: 8px;
+}
+
+td a {
+  color: #0f81d8;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+td a:hover {
+  color: #0061ac;
+}
+
+.full {
+  width: 100%;
+  font-size: 50px;
+}
+
+.left {
+  width: 25%;
+  font-size: 20px;
+  text-align: left;
+}
+
+.right {
+  width: 25%;
+  font-size: 15px;
+  text-align: right;
+  font-weight: normal;
+}
+
+.middle {
+  width: 50%;
+}
+
+button {
+  background-color: #165A92;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tag {
+  background-color: #666666;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+#qpage {
+  display: block;
+}
+
+#tpage,
+#qaskpage,
+#qerrors,
+#searchpage,
+#answerspage,
+#tlinkpage {
+  display: none;
+}
+
+.subtitle {
+  font-family: Arial;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.row textarea {
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+  text-align: left;
+  padding: 20px;
+}
+
+.errors {
+  color: red;
+  font-size: 20px;
+}
+
+.lt {
+  text-align: left;
+}
+
+/*Tag Page Stuff*/
+.tagcard {
+  height: 150px;
+  padding: 10px;
+  width: 26%;
+  border-color: #878787;
+  border-style: solid;
+  border-radius: 2px;
+  margin: 30px;
+  float: center;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.tagcard a {
+  color: #0281E8;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.tagcard a:hover {
+  color: #0061ac;
+}
+
+/* For Third Column */
+.asked {
+  color: #3f6998;
+}
+
+.on {
+  color: #417524;
+}
+
+.at {
+  color: #418486;
+}
+
+/*Individual CSS*/
+.size-25 {
+  font-size: 25px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Answer Stuff*/
+
+.answer {
+  width: 75%;
+}
+
+.tright {
+  text-align: right;
+  width: 25%
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+#qtext {
+  height: 150px;
+}
+
+/*Bootstrap Stuff*/
+
+.card {
+  border-radius: 4px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.navbar {
+  min-height: 40px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+
+.center-text {
+  font-size: 30px;
+  font-family: 'Ubuntu' !important;
+  text-align:center;
+}
+
+.btn-edit {
+  background-color: #FAC898 !important;
+}
+
+.btn-edit:hover{
+  background-color: #E3AB76 !important;
+}
+
+.white {
+  color: white;
+}
